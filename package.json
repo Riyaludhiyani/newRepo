@@ -1,0 +1,28 @@
+{
+  "name": "newrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riyaludhiyani/newRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riyaludhiyani/newRepo/issues"
+  },
+  "homepage": "https://github.com/Riyaludhiyani/newRepo#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14"
+  },
+  "type": "module",
+"scripts": {
+  "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+}
+}
